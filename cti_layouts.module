@@ -1,0 +1,18 @@
+<?php
+/**
+ * @file
+ * Contains cti_layouts.module.
+ */
+
+/**
+ * Implements hook_theme().
+ */
+function cti_layouts_theme() {
+  return [
+    'cti_three_col_advanced' => [
+      'template' => 'three-column-advanced',
+      // layout_plugin expects the theme hook to be declared with this:
+      'render element' => 'content',
+    ],
+  ];
+}

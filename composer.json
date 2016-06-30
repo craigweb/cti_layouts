@@ -1,0 +1,14 @@
+{
+  "name": "drupal/cti_layouts",
+  "description": "Registers various layouts to demonstrate the page layout capabilities in D8.",
+  "type": "drupal-module",
+  "license": "GPL-2.0+",
+  "keywords": ["php", "layout"],
+  "homepage": "https://www.ctidigital.com/",
+  "authors": [
+    {
+      "name": "Craig Perks",
+      "role": "Maintainer"
+    }
+  ]
+}

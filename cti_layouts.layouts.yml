@@ -1,0 +1,26 @@
+# Basic layout using an automatically registered template.
+cti_three_col_basic:
+  label: Three column (basic)
+  category: CTI Layouts
+  template: templates/three-column-basic
+  css: css/three-column-basic.css
+  regions:
+    main:
+      label: Main content
+    sidebar_first:
+      label: Sidebar first
+    sidebar_second:
+      label: Sidebar second
+# Advanced layout using the hook_theme() to register a layout.
+cti_three_col_advanced:
+  label: Three column (advanced)
+  category: CTI Layouts
+  theme: cti_three_col_advanced
+  css: css/three-column-advanced.css
+  regions:
+    main:
+      label: Main content
+    sidebar_first:
+      label: Sidebar first
+    sidebar_second:
+      label: Sidebar second
