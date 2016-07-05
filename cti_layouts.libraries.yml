@@ -1,0 +1,9 @@
+intermediate-layout-library:
+  version: VERSION
+  js:
+    js/cti_layouts.intermediate.js: {}
+  css:
+    theme:
+      css/cti_layouts.intermediate.css: {}
+  dependencies:
+    - core/jquery
