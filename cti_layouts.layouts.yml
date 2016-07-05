@@ -11,6 +11,19 @@ cti_three_col_basic:
       label: Sidebar first
     sidebar_second:
       label: Sidebar second
+# Intermediate layout using a registered template and library
+cti_three_col_intermediate:
+  label: Three column (intermediate)
+  category: CTI Layouts
+  template: templates/three-column-intermediate
+  library: cti_layouts/intermediate-layout-library
+  regions:
+    main:
+      label: Main content
+    sidebar_first:
+      label: Sidebar first
+    sidebar_second:
+      label: Sidebar second
 # Advanced layout using the hook_theme() to register a layout.
 cti_three_col_advanced:
   label: Three column (advanced)
