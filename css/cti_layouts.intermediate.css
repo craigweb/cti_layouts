@@ -1,0 +1,21 @@
+.three-column--intermediate {
+  background: lightyellow;
+  overflow: auto;
+}
+
+.three-column--intermediate .main-region {
+  width: 50%;
+  float: left;
+  margin-left: 25%;
+}
+
+.three-column--intermediate .sidebar-first-region {
+  width: 25%;
+  float: left;
+  margin-left: -75%;
+}
+
+.three-column--intermediate .sidebar-second-region {
+  width: 25%;
+  float: left; 
+}
